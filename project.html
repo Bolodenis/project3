@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample website</title>
+    <link rel="icon" href="https://img.freepik.com/free-photo/sky-clouds-cinematic-clouds-wallpaper-4_1562-741.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(https://cdn.mos.cms.futurecdn.net/xaycNDmeyxpHDrPqU6LmaD-1200-80.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1;
+            font-family: sans-serif;
+        }
+        header{
+           background-color: rgb(211, 72, 72);
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            /* Ensure the header appears on top of other elements */
+        }
+        footer{
+            background-color: rgb(211, 72, 72);
+            height: 80px;
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+        .main{
+            float: left;
+            width: 45%;
+            height: 300px;
+            margin-left: 5%;
+            margin-top: 90px;
+            color: white;
+        }
+        .second{
+            float: right;
+            width: 45%;
+            height: 300px;
+            margin-right: 5%;
+            margin-top: 90px;
+            color: white;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            float: left;
+            padding: 50px 50px 30px 20px;
+        }
+        li a{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            display: block;
+        }
+        li a:hover{
+            background-color: black;
+        }
+        .active{
+            background-color: gray;
+        }
+        .get{
+            border: 2px solid white;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            height: 50px;
+            width: 120px;
+            background-color: grey;
+            color: white;
+            text-decoration: none;
+            border: none;
+            text-align: center;
+            line-height: 50px; 
+            border-radius: 5px;
+            
+        }
+        .get:hover {
+            background-color: #ff0000; 
+        }
+        .image, .second{
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 250px;
+            height: 250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="./about.html" class="active">About us</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="./contact.html">Team</a></li>
+            <li><a href="./contact.html">Blog</a></li>
+        </ul>
+        <a class="get" href="">Get started</a>
+    </header>
+    <div class="main">
+        <img class="image" src="https://c-static.smartphoto.com/structured/repositoryimage/productcategory/fun_ideas/tshirtmen/topimages/0018/image/tshirt-carrousel1.jpg" width="250px" height="250px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure velit numquam consequuntur expedita nostrum? Sint perspiciatis maiores ipsam obcaecati soluta rerum voluptates, veniam facilis laudantium illo expedita perferendis? Officiis, facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure velit numquam consequuntur expedita nostrum? Sint perspiciatis maiores ipsam obcaecati soluta rerum voluptates, veniam facilis laudantium illo expedita perferendis? Officiis, facilis.</p>
+    </div>
+    <div class="second">
+        <img class="second" src="https://www.apparelnbags.com/blog/wp-content/uploads/2022/07/blog-image-3-1200x900.webp" width="250px" height="250px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure velit numquam consequuntur expedita nostrum? Sint perspiciatis maiores ipsam obcaecati soluta rerum voluptates, veniam facilis laudantium illo expedita perferendis? Officiis, facilis.</p>
+    </div>
+
+    <footer>
+       
+        <p>Copyright &#169;</p>
+    </footer>
+    
+</body>
+</html>
